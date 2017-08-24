@@ -1,0 +1,4 @@
+#!ipxe
+:retry_boot
+autoboot || goto retry_boot
+
